@@ -1,0 +1,22 @@
+.navigation {
+    width: 90%;
+    margin: 0 auto;
+
+    button {
+        cursor: pointer;
+        background: transparent;
+        border: none;
+
+        &:disabled {
+            cursor: auto;
+        }
+    }
+}
+
+.step {
+    padding: 20px;
+
+    div {
+        margin-top: 10px;
+    }
+}

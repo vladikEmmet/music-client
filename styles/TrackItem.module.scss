@@ -1,0 +1,20 @@
+.track {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.info {
+    width: 50%;
+    margin: 0 20px;
+
+    div:nth-child(2) {
+        color: gray;
+    }
+}
